@@ -14,6 +14,8 @@
 		D03C3E47282F3C750018B0C9 /* NativeRequest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D03C3E45282F3C750018B0C9 /* NativeRequest.xcdatamodeld */; };
 		D03C3E49282F3C770018B0C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03C3E48282F3C770018B0C9 /* Assets.xcassets */; };
 		D03C3E4C282F3C770018B0C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03C3E4A282F3C770018B0C9 /* LaunchScreen.storyboard */; };
+		D03C3E54282F3C880018B0C9 /* InternetStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03C3E53282F3C880018B0C9 /* InternetStatus.swift */; };
+		D0A1394F2830006B005DE83A /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A1394E2830006B005DE83A /* DetalleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		D03C3E48282F3C770018B0C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D03C3E4B282F3C770018B0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D03C3E4D282F3C770018B0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03C3E53282F3C880018B0C9 /* InternetStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetStatus.swift; sourceTree = "<group>"; };
+		D0A1394E2830006B005DE83A /* DetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				D03C3E4A282F3C770018B0C9 /* LaunchScreen.storyboard */,
 				D03C3E4D282F3C770018B0C9 /* Info.plist */,
 				D03C3E45282F3C750018B0C9 /* NativeRequest.xcdatamodeld */,
+				D03C3E53282F3C880018B0C9 /* InternetStatus.swift */,
+				D0A1394E2830006B005DE83A /* DetalleViewController.swift */,
 			);
 			path = NativeRequest;
 			sourceTree = "<group>";
@@ -141,10 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A1394F2830006B005DE83A /* DetalleViewController.swift in Sources */,
 				D03C3E41282F3C750018B0C9 /* ViewController.swift in Sources */,
 				D03C3E3D282F3C750018B0C9 /* AppDelegate.swift in Sources */,
 				D03C3E47282F3C750018B0C9 /* NativeRequest.xcdatamodeld in Sources */,
 				D03C3E3F282F3C750018B0C9 /* SceneDelegate.swift in Sources */,
+				D03C3E54282F3C880018B0C9 /* InternetStatus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
